@@ -29,7 +29,8 @@ h1 {
 }
 
 #dogs-container {
-    justify-content: center;  
+    justify-content: center;
+    align-content: center;  
 }
 
 .flex-item {
@@ -54,16 +55,12 @@ footer > .flex-item > h1 {
     text-align: center;
 }
 
+
 #flex-footer-1 {
-    background-image: linear-gradient(rgba(200,0,0,0.5), rgba(200,0,0,0.5)), url("../images/donate.jpg");
-    display: flex;
+    background-image: linear-gradient(rgba(200,0,0,0.5), rgba(200,0,0,0.5)), url("starter_files/images/donate.jpg");
     min-height: 350px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
     flex: 1 1 10%;
 }
-
 
 #flex-footer-2 {
     background: linear-gradient(rgba(200,0,0,0.5), rgba(200,0,0,0.5)), url("../images/volunteer.jpg");
